@@ -4,5 +4,5 @@ What is Compilation?
 It is a process in which source code i n converted into executable code. This will be done by Compiler
 
 Following two activities are performed during Compilation
-1) parsing
-2) Translation
+1) Parsing : Errors will  be checked inside source code and Errors will be shown 
+2) Translation : if source code has no Errors then source code will be translated into machine understandable code.
