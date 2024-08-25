@@ -1,0 +1,13 @@
+JDK (Java Development Kit)
+--------------------------
+Java Developer uses JDK to build programs in Java.
+It (JDK) contains serveral tools such as compiler, library, keywords etc.
+
+JRE (Java Runtime Enviroment)
+-----------------------------
+Java Developer uses JRE to run Java programs
+
+JVM (Java Virtual Machine)
+--------------------------
+It is a component of JRE
+It provides a Virtual Machine to run Java programs Life cycle of Java program is managed by JVM
