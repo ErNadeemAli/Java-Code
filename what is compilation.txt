@@ -1,0 +1,8 @@
+What is Compilation?
+--------------------
+
+It is a process in which source code i n converted into executable code. This will be done by Compiler
+
+Following two activities are performed during Compilation
+1) parsing
+2) Translation

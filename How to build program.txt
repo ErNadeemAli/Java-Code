@@ -8,3 +8,8 @@ how to build program using Java?
 1) Write source code of the program
 2) Save source code in a file
 3) Compile source code
+
+Every Java program has two files
+1) source code file: This file will be created by the programer. In the file you will have to Write source code of the program. Extension of this file must be .java 
+
+2) Extension code file: Compile gererates this file. In this file code will be inserted by Compiler. This code will take part in execution. Extension name of this file will be .class this file will be included into application.
