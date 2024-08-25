@@ -1,0 +1,33 @@
+Core Java
+-------------------------
+1) JDK, JRE and JVM
+2) Building first program using java
+3) Defining method
+4) Variable and datatype
+5) operators
+6) conditions
+7) Loop
+8) OOPS Concept
+    a) Encapsulation
+    b) Inheritance
+    c) Polymorphism
+    d) Abstraction
+      etc
+9) Array
+10) Package and Jar files
+11) String handling 
+12) Exception Handling
+13) File Handling 
+14) Multithreading 
+15) Developing desktop applications
+    etc.
+
+
+    -----------------GIT HUB Repo-------
+    echo "# Java-Code" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ErNadeemAli/Java-Code.git
+git push -u origin main
