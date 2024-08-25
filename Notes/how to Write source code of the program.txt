@@ -22,3 +22,23 @@ public class MyFirstProgram{
 }
 
 4) Define atleast one command/statement inside method.
+
+How to save source code in a file
+---------------------------------
+
+Source code of your program must be saved
+Name of the file must be name of the class 
+Extension of the file must be .java
+Save it into your workspace folder
+
+How to Compile the source code
+-------------------------------
+1) open command prompt in the folder which has source code file
+2) Type following command on prompt and press enter
+    javac sourcecodefilename.java
+
+How to Run java file
+------------------------
+1) open command prompt in the folder which has source code file
+2) Type following command on prompt and press enter
+    java sourcecodefilename
