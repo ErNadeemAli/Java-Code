@@ -1,0 +1,10 @@
+A-Z  ---> 65-90
+a-z  ---> 97-122
+0-9  --->48-57
+
+ASCII Code in C and C++
+In latest language (Such as java,python,c#,etc) it is called unicode
+
+
+Class name should be in TitleCase
+Method name should be in camelCase

@@ -2,5 +2,23 @@ how to Write source code of the program
 ---------------------------------------
 
 1) Open an editor (Such as Notepad)
-2) 
+2) Defile atleast One class
 
+public class MyFirstProgram{
+
+}
+
+Here public and class are keywords
+MyFirstProgram is name of  class
+Remember all keywords are in lowercase
+
+3)  Define atleast one method inside the class body. Don't forget to Define main method
+
+public class MyFirstProgram{
+    public static void main(String [] args)
+    {
+
+    }
+}
+
+4) Define atleast one command/statement inside method.
