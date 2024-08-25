@@ -1,0 +1,10 @@
+Intsall JDK1.8
+Username :- rehaan@cetpainfotech.com
+password :- Cetpa@12345
+
+---------------------------
+how to build program using Java?
+---------------------------------
+1) Write source code of the program
+2) Save source code in a file
+3) Compile source code
