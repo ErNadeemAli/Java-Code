@@ -1,0 +1,58 @@
+Java is an object oriented Programming language
+we will build applications using Java
+
+What is application?
+It is set of Programs.
+
+what is program?
+it is set of methods
+
+What is method?
+it is set of commands/statements/instructions to perform a particular task.
+
+Keywords :-
+-----------
+Every programming language provides set of keywords without keywords we can not write source code of the program.
+Keywords are vocabulary of programming language 
+In Java there are upto 60 keywords. Few keywords are as follows
+public ,private,protected,class,interface,static,abstract,final,synchronized,import,extends,implements,package,native,byte,short,int,long,float,double,boolean,char,for,while,do,return,break,if,else,switch,case,try,catch,finally,throw,throws,assert,null,new,this,super,true,false,instanceof,void etc.
+
+All Keywrods will be lowercase 
+as we khow programming langauge is case sensitive
+
+Naming Rule :-
+--------------
+We will have to follow following rules inorder to specify a valid name
+
+1) Name must begin with an alphabets or $ or _
+2) Except $ and _ other sysmbols are not allowed in name
+3) Space is not allowed in name
+4) Keywords can be not taken as name 
+
+Naming Conventions :-
+----------------------
+It increase readability of code
+1) Name should be meaningful.
+2) Class name should be TitleCase.
+3) Method,variable and argument name should be in camelCase.
+4) Package name should be in lowercase
+5) constant name should  be in UPPERCASE
+
+
+Implementation of Method
+-----------------------------
+Implementation of method has executable commands. This is also called body of Method
+Running program means running/executing these commands
+commands can be follows
+1) command to create variable
+2) command to assign value to variable
+3) command to perform arithmetic operation
+4) command to perform comparsion operation
+5) command to perform logical operation
+6) command to apply condition
+7) command to create/define loop
+8) command to call method
+9) command to return value
+10) command to create object
+11) command to create array
+etc.
