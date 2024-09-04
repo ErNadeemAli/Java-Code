@@ -1,0 +1,56 @@
+Operators :-
+------------
+We will have to write following commands also
+
+1) command to perform arithmetic operation such as 
+increment,decrement, addition, subtraction, etc
+2) command to comparsion arithmetic operation
+etc
+
+Operators are used to define these commands
+few operators are as follows
++,-,*,%,<,<=,>,>=,!=,==,+=,-=,*=,%=,&&,||,^,++,--,!,etc
+we can divide these operators into following two categories
+1) Unary operators --> ++ ,--,!
+2) Binary operators --> rest operators are Binary operators
+
+Note:- Every operator returns a value after performing operation.
+
+Unary Operators
+---------------
+These operators are applied on single operand(data)
+++(increment)
+--(decrement)
+!(not)
+
+++(increment)
+-------------
+It is used to increase value of the variable by 1
+
+int x=0;   //statement
+write command to increase value of variable x by 1
+following these  commands are possible
+x=x+1;
+or
+x+=1;
+or
+x++;
+
+--(decrement)
+-------------
+It is used to decrement value of the variable by 1
+
+int x=0;   //statement
+write command to decrement value of variable x by 1
+following these  commands are possible
+x=x-1;
+or
+x-=1;
+or
+x--;
+
+
+
+
+
+

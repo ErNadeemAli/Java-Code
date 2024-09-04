@@ -1,0 +1,64 @@
+What is variable?
+-----------------
+program keeps data(input as well as output) in memory
+program  reserves name space in memory to keep data
+Java runtime enviroment allocates space to the program on demand. data kept into this space can be change by program anytime. That's why this space is known as variable.
+
+So variable is named space in memory. program keeps data into variable. It means variable is container of data in memory.
+
+command to create variable
+---------------------------
+
+datatype_of_variable name_of _variable;
+int num;
+
+Here int is datatype of variable
+num is name of variable
+
+Datatype are divided into following two categories
+
+1) Primitive Datatypes
+2) Non-Primitive Datatypes
+
+Primitive Datatypes :-
+---------------------
+These are the system defined datatypes. In Java there are 8 Primitive Datatypes
+
+1) byte   --> for integer type variable -> 8 bit
+2) short  --> for integer type variable -> 16 bit
+3) int    --> for integer type variable -> 32 bit
+4) long   --> for integer type variable -> 64 bit
+
+range of datatype
+--------------------
+byte -> -2^7 to 2^7-1
+short -> -2^15 to 2^15-1
+int -> -2^31 to 2^31-1
+long -> -2^63 to 2^63-1
+
+5) float    --> for decimal type variable -> 32 bit
+6) double  --> for decimal type variable -> 64 bit
+
+7) boolean  --> for boolean type variable -> 1 bit
+
+8) char  --> for character type variable -> 16 bit
+
+Assigining value to the variable
+--------------------------------
+write following command to assign value to the variable 
+
+variable_name=value;
+
+Rule:- Type of valid must be same as type of variable
+
+value                  Type
+342                    int
+324L                   long
+34.49                  double
+34.39F                 float
+'k'                    char
+'*'                    char
+'8'                    char
+true                   boolean
+flase                  boolean
+"Hello"                string

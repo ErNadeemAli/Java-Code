@@ -1,0 +1,12 @@
+Loop :-
+------
+It is responsible to execute a command or set of commands n number of times
+If your program wants to execute a command n number of times then that command should be written inside body of the loop
+
+Defining loop
+-------------
+You can define loop by using of the following three keywords
+
+1) for
+2) while
+3) do and while
