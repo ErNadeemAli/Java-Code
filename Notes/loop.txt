@@ -10,3 +10,35 @@ You can define loop by using of the following three keywords
 1) for
 2) while
 3) do and while
+
+Defining loop using for
+------------------------
+Defining loop using for when number of iternations are khown/fixed counting is required in this loop
+
+
+for (int ctr=0;ctr<10 ctr++){
+    //write command here
+}
+
+Defining loop using While
+-------------------------
+Define loop using while when number of iternations are unkown/variable. counting is not required in this loop 
+
+int ctr=0;
+while (ctr<5>)
+{
+    //print commmand here
+    ctr++
+}
+
+Defining loop using do and while
+--------------------------------
+Define loop using while when number of iternations are unkown/variable. counting is not required in this loop
+It this case loop will run atleast once.
+
+int ctr=0;
+
+do{
+    //code here to print
+    ctr++
+}while(ctr<5>)

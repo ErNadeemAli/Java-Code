@@ -1,0 +1,44 @@
+Array
+------
+Your Program can create variable in memory to keep data.
+Your Program can create Object in memory to keep data.
+Your Program can create Array in memory to keep data.
+Your Program can create LinkList in memory to keep data.
+
+Data Structure
+---------------
+Data Structure is used to arrange Data in memory in proper manner so that time compelexity and space compelexity can be best not worst.
+
+    Stack (LIFO)
+    Quque (FIFO)
+    Tree (Array or LinkList)
+    Graph 
+
+Memory Allocation of the Array is static and memory Allocation of LinkList is dynamic
+
+static Memory -: Memory Allocation create  once during the program.
+
+Array size will be fixed.
+LinkList size will be dynamic.
+
+
+When to create Array ?
+======================
+Program wants to keep similar type of multiple values/data in memory then program can create Array. It use contigous memory Allocation.
+Data that will be kept into array is called element.
+Element will be Allocated in contiguous manner to the array.
+Due to this accessing element form the  array  is quite fast.
+
+Declaring Array
+===============
+Write following command to declare Array
+
+datatype[] name = new datatype[Size];
+Let us suppose Your program wants to keep 10 int type value in memory then array command should be as follows
+
+int[] arr=new int[10];
+
+"int[] arr" will create variable arr.
+"new int[10]" will create array of size 10 and type int and reference of the array will ve returned.
+= operator will assign that reference of the variable arr.
+0 will be assigned to each index. this will be default value of array.
