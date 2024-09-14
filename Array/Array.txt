@@ -41,4 +41,4 @@ int[] arr=new int[10];
 "int[] arr" will create variable arr.
 "new int[10]" will create array of size 10 and type int and reference of the array will ve returned.
 = operator will assign that reference of the variable arr.
-0 will be assigned to each index. this will be default value of array.
+0 will be assigned to each index. this will be default value of array. 

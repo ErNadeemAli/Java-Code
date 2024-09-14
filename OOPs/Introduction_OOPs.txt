@@ -1,0 +1,69 @@
+OOPs Concepts
+-------------
+1) Encapsulation
+2) Inheritance
+3) Polymorphism
+4) Abstraction
+
+As we know java is an object oriented programming language program that will be developed using java will be object oriented program.
+every object oriented program creates one or more then one objects during execution. Methods called by program will be executed on these objects.
+
+what is an object?
+------------------
+Every real world entity is an object
+Every object has following two characteristics
+
+1) Attribute
+2) Behaviour
+
+Our program will create object as data container like variable and array.
+It means our program can create variable, array as well as object to keep data in memory.
+
+Variable Vs object
+==================
+Variable can hold only one value. It means your program can keep only one value in variable.
+object can hold multiple values. These values will be States of real world  entity.
+Variable can not be shared among Methods
+Variable can be shared among methods
+
+Creating object
+================
+As we know object oriented program creates one or more than objects during execution. program will create these objects from a class 
+This is because every object is an instance of a class
+
+What is Class?
+==============
+It is blueprint or template from which objects are created
+Properties of the objects are defined inside class
+
+public class Point{
+
+    private int x;
+    private int y;
+
+    public Point(int a,int b){  //cunstroctur
+        this.x=a;
+        this.y=b;
+    }
+}
+
+Define following inside class
+1) Instance variables: It will hold data
+2) Construcotrs: It will be responsible to assign data first time
+3) Getters and Setters: These are methods and responsible to return data from the object and change data.
+
+Instance variable
+=================
+Those variable that are declared/defined inside class without using static keyword are known as instance variables 
+These variable will be attributes of object and hold states of object. Since object is an instance of the class that's why these variable are known as instance variable.
+
+public class Product
+{
+    //declaring instance variable
+    private int pid;
+    private String name;
+    private String brand;
+    private int price;
+}
+
+These commands (command to create instance variable) are executed each time object from that class will be created by any program.
