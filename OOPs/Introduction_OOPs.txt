@@ -1,5 +1,5 @@
 OOPs Concepts
--------------
+=============
 1) Encapsulation
 2) Inheritance
 3) Polymorphism
@@ -9,7 +9,7 @@ As we know java is an object oriented programming language program that will be 
 every object oriented program creates one or more then one objects during execution. Methods called by program will be executed on these objects.
 
 what is an object?
-------------------
+==================
 Every real world entity is an object
 Every object has following two characteristics
 
@@ -41,7 +41,7 @@ public class Point{
     private int x;
     private int y;
 
-    public Point(int a,int b){  //cunstroctur
+    public Point(int a,int b){  //constructor
         this.x=a;
         this.y=b;
     }
@@ -49,7 +49,7 @@ public class Point{
 
 Define following inside class
 1) Instance variables: It will hold data
-2) Construcotrs: It will be responsible to assign data first time
+2) Constructors: It will be responsible to assign data first time
 3) Getters and Setters: These are methods and responsible to return data from the object and change data.
 
 Instance variable
@@ -66,4 +66,205 @@ public class Product
     private int price;
 }
 
-These commands (command to create instance variable) are executed each time object from that class will be created by any program.
+These commands (command to create instance variable) are executed each time object from that class will be created by any program. 
+
+Constructor
+===========
+It is a special type of method
+Name of Constructor must be name of class
+Return type of Constructor is not allowed
+It is used to initialized object
+It is called automatically each time object from the class is created. command to create object already contains command to call Constructor
+we can write object's initialization command inside Constructor
+
+Type of Constructor
+====================
+There are two type of Constructor
+1) default Constructor
+2) parametrized Constructor
+
+Constructor Overloading
+============================
+Defining more than one Constructor inside a class is called Constructor Overloading. parameter list inside Constructor must be different.
+
+
+this
+=====
+It is a keyword
+It is used inside Constructor and non-static methods to hold reference of current class object
+Every instance variable must be accessed by the reference of the object. That's which code to access instance variable will be this.variable_name;
+
+public class Point{
+    private int x;
+    private int y;
+
+    public Point(int a, int b){
+        x=a; // this.x=a;
+        y=a; // this.y=b;
+    }
+
+    public void ShowPoint(){
+        sop("x="+x); // sop("x="+this.x);
+        sop("y="+y); // sop("y="+this.y);
+    }
+}
+
+
+Static and non-static method
+=============================
+
+Defining non-static method inside class
+=======================================
+If you want to use instance variables inside a method then that method must be non-static
+Object reference is required to call non-static methods
+
+Defining static method inside class
+===================================
+If you want do not use instance variables inside a method then that method must be static
+Class Name is required to call non-static methods
+
+Return Type of method
+=====================
+return type of method can be void as well as non-void 
+If return type of the method is void then that method will not return any value to the caller.
+ 
+If return type of the method is not void then that method will  return a value to the caller. These type of method must have return statement in the body.
+
+Encapsulation
+==============
+Wrapping up attributes and Behaviour of the object into a Single unit is called Encapsulation. This is achieved by Defining a class.
+
+Advantage of Encapsulation is data hiding.
+
+Instantiation
+=============
+As we know every object is instance of a class.
+Creating object from the class is called instantiation
+
+Inheritance
+===========
+It helps in code reusability
+It is a process in which a class can acquire Properties from an existing class. This is called inheriting Properties.
+public class AA{
+    // Properties
+}
+
+public class BB extends AA{
+    // Properties 
+}
+
+public class CC extends AA{
+    // Properties 
+}
+
+In above code both class BB and class CC are inheriting Properties form the class AA
+
+Here class AA is Super/Parent/base class of classes BB and CC
+Classes BB and CC are sub/child/derived class of class AA.
+
+Access Modifiers
+================
+We can use access modifiers in classes, methods and variable declaration to set visibility/accessibility
+
+There are four access modifiers
+1) public -> public void show()
+2) protected -> protected void show()
+3) default -> void show()
+4) private -> private void show()
+
+Note:- classes can be public or default only.
+Note:- Packages are container of classes.
+
+access modifier    inside Packages   outside Packages
+==============     ===============   ================
+public             In all classes    In all classes
+protected          In all classes    In child classes only
+default            In all classes    Not accessible
+private            Not accessible    Not accessible
+
+Types Of Inheritance
+=====================
+There are 5 Types of Inheritance
+1) Single Inheritance
+2) Multiple Inheritance
+3) Multilevel Inheritance
+4) Hierarchical Inheritance
+5) Hybrid Inheritance
+
+Single Inheritance
+==================
+public class AA
+{
+    //Properties
+}
+
+public class BB extends AA{
+    //Properties
+}
+
+In Single Inheritance Parent  class has only one child class and no Parent. child class has only  one Parent and no child.
+
+Multiple Inheritance
+====================
+In multiple Inheritance, child class has multiple Parent classes 
+
+public class AA{
+    // Properties
+}
+public class BB{
+    // Properties
+}
+public class CC extends AA , BB // Error
+{
+    // Properties
+}
+
+//Here class cc has two Parent AA and BB
+In java multiple Inheritance is not allowed in classes but allowed in interfaces.
+C++ and Python allows multiple Inheritance in classes
+
+Method Overriding Rule (2024-03-14)
+======================
+1) Parameter list of both methods must be same.
+2) Return type of both method must be same
+3) Child class method should not be less accessible than the Parent class method.
+
+Method Overloading
+==================
+Defining more than one same name methods inside  a class is called method Overloading.
+
+Method Overloading reduces complexity of the code
+Rule:-
+Parameter/argument list must be different in method Overloading You can achieve it by following one of the three ways
+1) Change number of parameter
+2) Change datatype of parameter 
+3) Change sequence of parameter
+
+Polymorphism
+============
+It is Greek word.
+Polymorphism means many forms or one name many forms.
+Polymorphism reduces complexity
+we can achieve it by following two ways
+1) By method Overloading
+2) By method Overriding
+There are two type of Polymorphism
+1) static Polymorphism
+2) dynamic Polymorphism
+
+Static Polymorphism
+===================
+existing in different physical forms simultaneously.
+it is achieved by method Overloading 
+This Polymorphism is also known as compile time Polymorphism.
+
+
+Dynamic Polymorphism
+====================
+Changing its form depending upon circumstances
+It is achieved by method Overriding
+This Polymorphism is also known as run time Polymorphism.
+
+Abstraction
+===========
+Hiding complexity is called Abstraction.
